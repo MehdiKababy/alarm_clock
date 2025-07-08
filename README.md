@@ -9,7 +9,6 @@
 
 ## الزامات
 
-- پایتون ۳.x
 - کتابخانه `playsound` (نصب با `pip install playsound`)
 
 ## نحوه استفاده
