@@ -22,7 +22,7 @@ def run_alarm(alarm):
                 )  # حل میشه powershell این مشکل در \ to / ویندوز اجرا شه نمیتونه ادرس رو بخونه و ارور میده ولی با جیگزینی powershell اگه این کد از
             run = 5
             while run > 0:
-                play.playsound(file_path)
+                play(file_path)
                 run -= 1
             return "The alarm task {} is complete"
         # # check_time = time_now.replace(hour=12, minute=0, second=0, microsecond=0)
